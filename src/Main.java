@@ -8,7 +8,7 @@ public class Main {
 	}
 
 	private static int fatorial(int n) {
-		if (n == 0) {
+		if (n == 0) { //Condição de parada
 			return 1;
 		}else {
 			return n * fatorial (n-1);
